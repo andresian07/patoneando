@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Encabezado */
+header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+header a {
+    margin-top: 20px;
+}
+
+/* Tarjetas de Rutas */
+.route-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.route-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.route-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.route-card:hover .btn-outline-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Pie de Página */
+footer {
+    margin-top: 50px;
+}
+
+
+.login {
+    min-height: 100vh;
+  }
+  
+  .bg-image {
+    background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-heading {
+    font-weight: 300;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
